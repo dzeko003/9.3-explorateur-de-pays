@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorateur de pays | S.9.3 Akieni Academy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="entete">
+      <h1>Explorateur de pays</h1>
+      <p class="sous-titre">Semaine 9 — Projet avancé · Livrable officiel</p>
+    </header>
+
+    <main>
+      <div class="barre-outils">
+        <input type="search" placeholder="Rechercher un pays..." />
+        <select>
+          <option value="tous">Tous les continents</option>
+          <option value="Africa">Afrique</option>
+          <option value="Americas">Amériques</option>
+          <option value="Asia">Asie</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Océanie</option>
+        </select>
+        <select>
+          <option value="decroissant">Population décroissante</option>
+          <option value="croissant">Population croissante</option>
+        </select>
+      </div>
+
+      <section id="sortie" class="grille-pays">
+        <!-- pays.js -->
+      </section>
+    </main>
+
+    <footer class="pied">
+      <p>
+        Données fournies par
+        <a
+          href="https://restcountries.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >REST Countries</a
+        >
+      </p>
+    </footer>
+
+    <script src="pays.js"></script>
+  </body>
+</html>
