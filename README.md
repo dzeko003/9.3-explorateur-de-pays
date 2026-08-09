@@ -106,3 +106,5 @@ tri) est pour l'instant une maquette — elle sera branchée pour de vrai
 avec `addEventListener` en semaine 10.
 
 ## Capture d'écran
+
+[capture](./capture.png)
